@@ -13,6 +13,14 @@ https://github.com/DeveloppeurPascal/DevPas-Components-Pack
 
 -----
 
+TODO :
+
+* TVCLEImageCollection (VCL) :
+-> permet de charger des images depuis un flux plutôt que les embarquer dans l'exe
+-> ajouter la possibilité de gérer des spritesheets
+
+-----
+
 Si vous ne connaissez pas Delphi et le langage Pascal, profitez de la version Academic (pour les étudiants, enseignants et établissements d'enseignement) ou Community Edition (gratuite pour une utilisation personnelle) disponibles chez Embarcadero (rubrique "outils gratuits").
 En entreprise vous pouvez aussi tester Delphi avec la version d'évaluation.
 https://www.embarcadero.com/products/delphi
