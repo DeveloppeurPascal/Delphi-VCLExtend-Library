@@ -3,6 +3,7 @@ unit Olf.VCL.SelectDirectory;
 interface
 
 Uses
+  VCL.FileCtrl,
   System.Classes;
 
 type
@@ -21,9 +22,11 @@ type
     FDirectory: string;
     FCaption: string;
     FRoot: string;
+    FOptions: TSelectDirExtOpts;
     procedure SetDirectory(const Value: string);
     procedure SetRoot(const Value: string);
     procedure SetCaption(const Value: string);
+    procedure SetOptions(const Value: TSelectDirExtOpts);
   protected
   public
     function Execute: boolean;
@@ -42,6 +45,11 @@ type
     /// If nothing is selected, the output directory is the same as input directory.
     /// </summary>
     property Directory: string read FDirectory write SetDirectory;
+    /// <summary>
+    /// Used to personalize the dialog box. See Delphi documentation if you want
+    /// to know how to use it.
+    /// </summary>
+    property Options: TSelectDirExtOpts read FOptions write SetOptions default [sdNewUI];
   end;
 
 procedure Register;
@@ -49,7 +57,6 @@ procedure Register;
 implementation
 
 Uses
-  VCL.FileCtrl,
   VCL.Controls;
 
 procedure Register;
@@ -65,6 +72,7 @@ begin
   FDirectory := '';
   FCaption := '';
   FRoot := '';
+  FOptions := [sdNewUI]; // default value used in SelectDirectory procedure
 end;
 
 function TOlfSelectDirectoryDialog.Execute: boolean;
@@ -72,7 +80,7 @@ var
   LDir: String;
 begin
   LDir := FDirectory;
-  result := SelectDirectory(FCaption, FRoot, LDir);
+  result := SelectDirectory(FCaption, FRoot, LDir, FOptions);
   if result then
     FDirectory := LDir;
 end;
@@ -80,6 +88,11 @@ end;
 procedure TOlfSelectDirectoryDialog.SetDirectory(const Value: string);
 begin
   FDirectory := Value;
+end;
+
+procedure TOlfSelectDirectoryDialog.SetOptions(const Value: TSelectDirExtOpts);
+begin
+  FOptions := Value;
 end;
 
 procedure TOlfSelectDirectoryDialog.SetRoot(const Value: string);
