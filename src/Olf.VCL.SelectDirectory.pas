@@ -16,7 +16,12 @@ type
   /// The properties are used as it when calling the function.
   /// http://docwiki.embarcadero.com/Libraries/en/VCL.FileCtrl.SelectDirectory
   /// </remarks>
+{$IF CompilerVersion >= 33.0}
   [ComponentPlatformsAttribute(pfidWindows)]
+{$ELSE}
+  [ComponentPlatformsAttribute(pidWin32 + pidWin64)]
+{$ENDIF}
+
   TOlfSelectDirectoryDialog = class(TComponent)
   private
     FDirectory: string;
@@ -49,7 +54,8 @@ type
     /// Used to personalize the dialog box. See Delphi documentation if you want
     /// to know how to use it.
     /// </summary>
-    property Options: TSelectDirExtOpts read FOptions write SetOptions default [sdNewUI];
+    property Options: TSelectDirExtOpts read FOptions write SetOptions
+      default [sdNewUI];
   end;
 
 procedure Register;
