@@ -1,6 +1,6 @@
 # Delphi VCL Extend Library
 
-[This page in english.](README.md)
+[This page in English.](README.md)
 
 Ensemble de composants VCL pour les projets Windows en Delphi.
 
