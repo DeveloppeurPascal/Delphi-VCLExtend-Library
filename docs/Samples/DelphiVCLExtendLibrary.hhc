@@ -9,10 +9,6 @@
       <param name="Window Styles" value="0x800227">
     </OBJECT>
     <UL>      <LI> <OBJECT type="text/sitemap">
-          <param name="Name" value="Delphi VCL Extend Library">
-          <param name="Local" value="Delphi-VCL-Extend-Library.html">
-          </OBJECT>
-      <LI> <OBJECT type="text/sitemap">
           <param name="Name" value="SelectDirectoryVCL">
           <param name="Local" value="SelectDirectoryVCL.html">
           </OBJECT>
@@ -127,77 +123,6 @@
                               <LI> <OBJECT type="text/sitemap">
                                   <param name="Name" value="Form1">
                                   <param name="Local" value="fMain.Form1.html">
-                                  </OBJECT>
-                          </UL>
-                  </UL>
-          </UL>
-      <LI> <OBJECT type="text/sitemap">
-          <param name="Name" value="Olf.VCL.Extend">
-          <param name="Local" value="Olf.VCL.Extend.html">
-          </OBJECT>
-          <UL>
-              <LI> <OBJECT type="text/sitemap">
-                  <param name="Name" value="Olf.VCL.SelectDirectory">
-                  <param name="Local" value="Olf.VCL.SelectDirectory.html">
-                  </OBJECT>
-                  <UL>
-                      <LI> <OBJECT type="text/sitemap">
-                          <param name="Name" value="Classes">
-                          </OBJECT>
-                          <UL>
-                              <LI> <OBJECT type="text/sitemap">
-                                  <param name="Name" value="TOlfSelectDirectoryDialog">
-                                  <param name="Local" value="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.html">
-                                  </OBJECT>
-                                  <UL>
-                                      <LI> <OBJECT type="text/sitemap">
-                                          <param name="Name" value="Constructors">
-                                          </OBJECT>
-                                          <UL>
-                                              <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="Create">
-                                                  <param name="Local" value="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.Create.html">
-                                                  </OBJECT>
-                                          </UL>
-                                      <LI> <OBJECT type="text/sitemap">
-                                          <param name="Name" value="Properties">
-                                          </OBJECT>
-                                          <UL>
-                                              <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="Caption">
-                                                  <param name="Local" value="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.Caption.html">
-                                                  </OBJECT>
-                                              <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="Directory">
-                                                  <param name="Local" value="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.Directory.html">
-                                                  </OBJECT>
-                                              <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="Options">
-                                                  <param name="Local" value="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.Options.html">
-                                                  </OBJECT>
-                                              <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="Root">
-                                                  <param name="Local" value="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.Root.html">
-                                                  </OBJECT>
-                                          </UL>
-                                      <LI> <OBJECT type="text/sitemap">
-                                          <param name="Name" value="Methods">
-                                          </OBJECT>
-                                          <UL>
-                                              <LI> <OBJECT type="text/sitemap">
-                                                  <param name="Name" value="Execute">
-                                                  <param name="Local" value="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.Execute.html">
-                                                  </OBJECT>
-                                          </UL>
-                                  </UL>
-                          </UL>
-                      <LI> <OBJECT type="text/sitemap">
-                          <param name="Name" value="Routines">
-                          </OBJECT>
-                          <UL>
-                              <LI> <OBJECT type="text/sitemap">
-                                  <param name="Name" value="Register">
-                                  <param name="Local" value="Olf.VCL.SelectDirectory.Register.html">
                                   </OBJECT>
                           </UL>
                   </UL>

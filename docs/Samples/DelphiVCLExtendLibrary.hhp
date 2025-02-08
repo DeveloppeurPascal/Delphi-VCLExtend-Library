@@ -3,11 +3,11 @@ Auto Index=Yes
 Binary Index=Yes
 Binary TOC=No
 Compatibility=1.1 or later
-Compiled File=C:\Users\patrickpremartin\Documents\Embarcadero\Studio\Projets\___lib\Delphi-VCLExtend-Library\DelphiVCLExtendLibrary.chm
+Compiled File=C:\Users\patrickpremartin\Documents\DevDelphi\___lib\Delphi-VCLExtend-Library\samples\DelphiVCLExtendLibrary.chm
 Contents File=DelphiVCLExtendLibrary.hhc
 Create CHI file=No
 Default Font=Segoe UI,9,0
-Default Topic=Delphi-VCL-Extend-Library.html
+Default Topic=SelectDirectoryVCL.html
 Default Window=Main
 Display compile notes=No
 Display compile progress=Yes
@@ -19,7 +19,7 @@ Language=0x409
 Title=Delphi VCL Extend Library
 
 [WINDOWS]
-Main="Delphi VCL Extend Library","DelphiVCLExtendLibrary.hhc","","Delphi-VCL-Extend-Library.html",,,,,"0x42520",0x61520,400,0x386e,[100,100,1124,868],,,,,,,0
+Main="Delphi VCL Extend Library","DelphiVCLExtendLibrary.hhc","","SelectDirectoryVCL.html",,,,,"0x42520",0x61520,400,0x386e,[100,100,1124,868],,,,,,,0
 
 [Files]
 themes/legacy\css/compact.css

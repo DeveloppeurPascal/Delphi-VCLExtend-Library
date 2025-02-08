@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Delphi VCL Extend Library: Olf.VCL.SelectDirectory: Class TOlfSelectDirectoryDialog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.16.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<div class="container"><div class="navigation">
+<h2><a href="index.html">Delphi VCL Extend Library</a></h2><ul><li><a href="AllUnits.html">Units</a></li><li><a href="ClassHierarchy.html">Class Hierarchy</a></li><li><a href="AllClasses.html">Classes, Interfaces, Objects and Records</a></li><li><a href="AllTypes.html">Types</a></li><li><a href="AllVariables.html">Variables</a></li><li><a href="AllConstants.html">Constants</a></li><li><a href="AllFunctions.html">Functions and Procedures</a></li><li><a href="AllIdentifiers.html">Identifiers</a></li></ul></div><div class="content">
+<span id="TOlfSelectDirectoryDialog"></span><h1 class="cio">Class TOlfSelectDirectoryDialog</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Description</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchy</a></div><div class="one_section">Fields</div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methods</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Properties</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="Olf.VCL.SelectDirectory.html">Olf.VCL.SelectDirectory</a></p>
+<h2 class="declaration">Declaration</h2>
+<p class="declaration">
+<code>type TOlfSelectDirectoryDialog = class(TComponent)</code></p>
+<h2 class="description">Description</h2>
+<p>
+ Open a modal dialog box to choose a directory. </p>
+<p>
+
+
+<p>This non visual component use SelectDirectory from VCL.FileCtrl. The properties are used as it when calling the function. <a href="http://docwiki.embarcadero.com/Libraries/en/VCL.FileCtrl.SelectDirectory">http://docwiki.embarcadero.com/Libraries/en/VCL.FileCtrl.SelectDirectory</a></p>
+<h6 class="description_section">Attributes</h6>
+<dl class="attributes">
+  <dt><code>ComponentPlatformsAttribute</code>(pfidWindows)</dt>
+  <dd></dd>
+</dl>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchy</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="ancestor">TPersistent</li>
+<li class="ancestor">TComponent</li>
+<li class="thisitem">TOlfSelectDirectoryDialog</li></ul><h2 class="overview">Overview</h2>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methods</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.html#Execute">Execute</a></strong>: boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.html#Create">Create</a></strong>(AOwner: TComponent); override;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Properties</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><code>property <strong><a href="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.html#Caption">Caption</a></strong>: string read FCaption write SetCaption;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><code>property <strong><a href="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.html#Root">Root</a></strong>: string read FRoot write SetRoot;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><code>property <strong><a href="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.html#Directory">Directory</a></strong>: string read FDirectory write SetDirectory;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><code>property <strong><a href="Olf.VCL.SelectDirectory.TOlfSelectDirectoryDialog.html#Options">Options</a></strong>: TSelectDirExtOpts read FOptions write SetOptions
+      default [sdNewUI];</code></td>
+</tr>
+</table>
+<h2 class="description">Description</h2>
+<h3 class="detail">Methods</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Execute"></span><code>function <strong>Execute</strong>: boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create"></span><code>constructor <strong>Create</strong>(AOwner: TComponent); override;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<h3 class="detail">Properties</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><span id="Caption"></span><code>property <strong>Caption</strong>: string read FCaption write SetCaption;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Text used as the dialog box title. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><span id="Root"></span><code>property <strong>Root</strong>: string read FRoot write SetRoot;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Root directory to filter the selection (can be empty) </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><span id="Directory"></span><code>property <strong>Directory</strong>: string read FDirectory write SetDirectory;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Initial directory in input. Selected directory in output if the user config the selection. If nothing is selected, the output directory is the same as input directory. </p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="published.gif" alt="Published" title="Published"></a></td>
+<td class="itemcode"><span id="Options"></span><code>property <strong>Options</strong>: TSelectDirExtOpts read FOptions write SetOptions
+      default [sdNewUI];</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+ Used to personalize the dialog box. See Delphi documentation if you want to know how to use it. </p>
+</td></tr>
+</table>
+<a href="https://vclextend.developpeur-pascal.fr/" target="_blank">Delphi VCL Extend Library</a> (c) 2021-2025 <a href="https://patrick.premartin.fr" target="_blank">Patrick PREMARTIN</a> - Powered by <a href="https://pasdoc.github.io/" target="_blank">PasDoc</a>
+<hr><span class="appinfo"><em>Generated by <a href="https://pasdoc.github.io/">PasDoc 0.16.0</a>. </em>
+</span>
+</div></div></body></html>
